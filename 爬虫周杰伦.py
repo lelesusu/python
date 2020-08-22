@@ -10,5 +10,6 @@ for i in list_music:
     print('所属专辑：'+i['album']['name'])
     print('发行时间：'+i['time_public'])
     print('链接：'+i['url'])
+    print('链接：'+i['url2'])
     # print(type(i['time_public']))
     # print(type(i['name']))
